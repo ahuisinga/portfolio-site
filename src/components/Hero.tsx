@@ -25,10 +25,14 @@ export default function HeroComponent() {
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
           <div className="flex flex-row items-center">
-            <button className="flex items-center space-x-2 bg-indigo-400  px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:bg-amber-300">
+            <a
+              className="flex items-center space-x-2 bg-indigo-400  px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:cursor-pointer hover:bg-amber-300"
+              href="pdfs/resume.pdf"
+              download="annahuisinga_resume.pdf"
+            >
               <p>Resume</p>
               <ArrowDownCircleIcon className="h-[1.7rem]" />
-            </button>
+            </a>
           </div>
         </div>
         <div className="mx-auto rounded-full lg:w-[40%]">
