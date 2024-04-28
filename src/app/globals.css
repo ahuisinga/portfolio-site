@@ -13,4 +13,9 @@
   .show-cursor {
     @apply after:animate-[cursor_1.1s_infinite_step-start] after:content-['|'];
   }
+
+  .hover-highlight {
+    @apply inline-block bg-gradient-to-l from-transparent from-50% to-cyan-400 to-50% bg-right transition-all duration-500 ease-out hover:bg-left;
+    background-size: 200%;
+  }
 }
