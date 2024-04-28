@@ -1,6 +1,7 @@
 "use client";
 
 import { Bars3Icon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Nav() {
@@ -25,10 +26,18 @@ export default function Nav() {
                 </h1> */}
                     {/* larger nav */}
                     <div className="md:flex gap-6 hidden">
-                        <div className="nav-link">HOME</div>
-                        <div className="nav-link">ABOUT</div>
-                        <div className="nav-link">PROJECTS</div>
-                        <div className="nav-link">CONTACT</div>
+                        <Link className="nav-link" href={"/"}>
+                            HOME
+                        </Link>
+                        <Link className="nav-link" href={"/"}>
+                            ABOUT
+                        </Link>
+                        <Link className="nav-link" href={"/"}>
+                            PROJECTS
+                        </Link>
+                        <Link className="nav-link" href={"/"}>
+                            CONTACT
+                        </Link>
                     </div>
                     <Bars3Icon
                         className="md:hidden cursor-pointer w-[2rem] h-[2rem] text-white"
@@ -41,10 +50,18 @@ export default function Nav() {
                 className={`${mobileNavAnimation} transform transition-all duration-300 z-[1000] bg-indigo-400 fixed top-[12vh] left-0 right-0 bottom-0`}
             >
                 <div className="flex flex-col items-center justify-center w-full h-full gap-6">
-                    <div className="nav-link_mobile">HOME</div>
-                    <div className="nav-link_mobile">ABOUT</div>
-                    <div className="nav-link_mobile">PROJECTS</div>
-                    <div className="nav-link_mobile">CONTACT</div>
+                    <Link className="nav-link_mobile" href={"/"}>
+                        HOME
+                    </Link>
+                    <Link className="nav-link_mobile" href={"/"}>
+                        ABOUT
+                    </Link>
+                    <Link className="nav-link_mobile" href={"/"}>
+                        PROJECTS
+                    </Link>
+                    <Link className="nav-link_mobile" href={"/"}>
+                        CONTACT
+                    </Link>
                 </div>
             </div>
         </>
