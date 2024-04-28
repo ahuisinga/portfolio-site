@@ -6,21 +6,21 @@ import Nav from "@/components/Nav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Portfolio",
-    description: "Created by Anna",
+  title: "Portfolio",
+  description: "Created by Anna",
 };
 
 export default function RootLayout({
-    children,
+  children,
 }: Readonly<{
-    children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body className={inter.className}>
-                <Nav />
-                {children}
-            </body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body className={inter.className}>
+        <Nav />
+        {children}
+      </body>
+    </html>
+  );
 }
