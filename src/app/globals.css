@@ -9,4 +9,8 @@
   .nav-link_mobile {
     @apply w-fit cursor-pointer text-lg text-white after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-amber-300 after:transition after:duration-300 after:content-[''] hover:text-amber-300 after:hover:scale-x-100;
   }
+
+  .show-cursor {
+    @apply after:animate-[cursor_1.1s_infinite_step-start] after:content-['|'];
+  }
 }
