@@ -1,4 +1,7 @@
-import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
+import {
+  ArrowDownTrayIcon,
+  ComputerDesktopIcon,
+} from "@heroicons/react/24/outline";
 import { AcademicCapIcon } from "@heroicons/react/24/outline";
 import AboutTabsComponent from "./AboutTabs";
 import SkillsFragment from "./SkillsFragment";
@@ -19,8 +22,18 @@ export default function AboutComponent() {
       </div>
       {/* Large devices show information side by side */}
       <div className="hidden grid-cols-2 gap-6 py-3 lg:grid">
-        <div className="mt-4 grid grid-cols-2 text-slate-500">
+        <div className="mt-4 grid grid-cols-2 justify-items-center text-slate-500">
           <SkillsFragment />
+          <div className="col-span-2 mt-20 flex flex-row items-center sm:mt-6">
+            <a
+              className="flex items-center space-x-2 bg-red-300  px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:cursor-pointer hover:bg-rose-700"
+              href="pdfs/resume.pdf"
+              download="annahuisinga_resume.pdf"
+            >
+              <p>Download Resume</p>
+              <ArrowDownTrayIcon className="h-[1.5rem]" />
+            </a>
+          </div>
         </div>
         <div className="space-y-4 text-slate-500">
           <BioFragment />

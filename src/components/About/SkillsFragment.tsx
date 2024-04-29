@@ -20,7 +20,7 @@ export default function SkillsFragment() {
   return (
     <>
       <div>
-        <div className="items center flex flex-row space-x-2 text-lg uppercase text-rose-700">
+        <div className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
           <AcademicCapIcon className="h-[1.6rem]" />
           <p>Education</p>
         </div>
@@ -31,7 +31,7 @@ export default function SkillsFragment() {
         </ul>
       </div>
       <div>
-        <div className="items center flex flex-row space-x-2 text-lg uppercase text-rose-700">
+        <div className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
           <ComputerDesktopIcon className="h-[1.6rem]" />
           <p>Technical Skills</p>
         </div>
