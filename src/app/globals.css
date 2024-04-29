@@ -18,4 +18,12 @@
     @apply inline-block bg-gradient-to-l from-transparent from-50% to-cyan-400 to-50% bg-right transition-all duration-500 ease-out hover:bg-left;
     background-size: 200%;
   }
+
+  .tab {
+    @apply ui-selected:border-b-4 w-full border-b-2 border-rose-700 py-2.5 text-lg font-bold leading-5 text-rose-700 focus:outline-none;
+  }
+
+  .tab-panel {
+    @apply py-3;
+  }
 }
