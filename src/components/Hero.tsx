@@ -35,10 +35,10 @@ export default function HeroComponent() {
             </a>
           </div>
         </div>
-        <div className="mx-auto hidden rounded-full lg:flex">
+        <div className="mx-auto hidden rotate-12 drop-shadow-xl lg:flex">
           <Image
-            src={"/images/profile.jpg"}
-            className="rounded-full object-cover"
+            src={"/images/cartoon-me.png"}
+            className="object-cover"
             alt="profile photo"
             height={400}
             width={400}
