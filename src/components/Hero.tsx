@@ -1,6 +1,6 @@
 import Image from "next/image";
 import TypewriterAnimation from "./TypewriterAnimation";
-import { ArrowDownCircleIcon } from "@heroicons/react/24/outline";
+import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 
 export default function HeroComponent() {
   return (
@@ -31,17 +31,17 @@ export default function HeroComponent() {
               download="annahuisinga_resume.pdf"
             >
               <p>Resume</p>
-              <ArrowDownCircleIcon className="h-[1.7rem]" />
+              <ArrowDownTrayIcon className="h-[1.5rem]" />
             </a>
           </div>
         </div>
-        <div className="mx-auto hidden rotate-12 drop-shadow-xl lg:flex">
+        <div className="mx-auto hidden rotate-6 drop-shadow-xl lg:flex">
           <Image
-            src={"/images/cartoon-me.png"}
+            src={"/images/hero-image.png"}
             className="object-cover"
-            alt="profile photo"
-            height={400}
-            width={400}
+            alt="polaroid cartoon of me"
+            height={500}
+            width={500}
           />
         </div>
       </div>
