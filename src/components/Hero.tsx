@@ -4,7 +4,7 @@ import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
 
 export default function HeroComponent() {
   return (
-    <div className="mt-[12vh] h-[88vh] bg-neutral-100 p-16">
+    <div className="mt-[12vh] min-h-[88vh] bg-neutral-100 p-16">
       <div className="mx-auto grid grid-cols-1 items-center gap-[3rem] lg:grid-cols-2">
         <div className="flex w-full flex-col">
           <h1 className="text-4xl font-bold text-slate-700">
@@ -35,13 +35,12 @@ export default function HeroComponent() {
             </a>
           </div>
         </div>
-        <div className="mx-auto hidden rotate-6 drop-shadow-xl lg:flex">
+        <div className="mx-auto hidden rotate-6 drop-shadow-xl sm:flex sm:h-[500px] sm:w-[500px]">
           <Image
             src={"/images/hero-image.png"}
             className="object-cover"
             alt="polaroid cartoon of me"
-            height={500}
-            width={500}
+            fill={true}
           />
         </div>
       </div>
