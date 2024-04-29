@@ -4,7 +4,7 @@ import { ArrowDownCircleIcon } from "@heroicons/react/24/outline";
 
 export default function HeroComponent() {
   return (
-    <div className="h-[88vh] bg-neutral-50 p-16">
+    <div className="mt-[12vh] h-[88vh] bg-neutral-100 p-16">
       <div className="mx-auto grid grid-cols-1 items-center gap-[3rem] lg:grid-cols-2">
         <div className="flex w-full flex-col">
           <h1 className="text-4xl font-bold text-slate-700">
@@ -12,16 +12,16 @@ export default function HeroComponent() {
           </h1>
           <br />
           {/* block needs specific height to prevent layout shift */}
-          <div className="block h-[8rem] sm:h-[9rem] xl:h-[10rem]">
+          <div className="block h-[18rem] sm:h-[9rem] xl:h-[10rem]">
             <TypewriterAnimation />
           </div>
           <p className="hidden pl-0 pt-11 text-slate-500 sm:flex">
-            I'm a seasoned software developer, currently shaping digital
-            experiences at Charles Schwab on the Salesforce platform. Beyond my
-            professional endeavors, I'm a passionate advocate for women's sports
-            and a connoisseur of pop culture, with a soft spot for classic 80s
-            rom coms. You can also often find me tinkering with DIY renovations,
-            fun lego sets, or craft projects. Let's build something
+            I&apos;m a software developer, currently shaping digital experiences
+            on the Salesforce platform. Beyond my professional endeavors,
+            I&apos;m a passionate advocate for women&apos;s sports and a
+            connoisseur of pop culture, with a soft spot for classic 80&apos;s
+            rom-coms. You can also often find me tinkering with DIY renovations,
+            lego masterpieces, or craft projects. Let&apos;s build something
             extraordinary together!
           </p>
           <div className="mt-20 flex flex-row items-center sm:mt-6">

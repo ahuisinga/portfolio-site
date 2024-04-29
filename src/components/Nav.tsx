@@ -12,7 +12,7 @@ export default function Nav() {
   const mobileNavAnimation = mobileNav ? "translate-x-0" : "translate-x-[100%]";
   return (
     <>
-      <div className="top-0 h-[12vh] w-full bg-indigo-400">
+      <div className="fixed top-0 z-[900] h-[12vh] w-full bg-indigo-400">
         <div className="mx-auto flex h-full w-[80%] items-center justify-between">
           <div className="flex flex-[0.6] cursor-default text-2xl font-bold text-white">
             <h1>ANNA</h1>
@@ -27,7 +27,7 @@ export default function Nav() {
             <Link className="nav-link" href={"/"}>
               HOME
             </Link>
-            <Link className="nav-link" href={"/"}>
+            <Link className="nav-link" href={"#about"}>
               ABOUT
             </Link>
             <Link className="nav-link" href={"/"}>
