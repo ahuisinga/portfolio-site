@@ -1,10 +1,10 @@
 import Image from "next/image";
 import TypewriterAnimation from "./TypewriterAnimation";
-import { ArrowDownTrayIcon } from "@heroicons/react/24/outline";
+import { ArrowDownCircleIcon } from "@heroicons/react/24/outline";
 
 export default function HeroComponent() {
   return (
-    <div className="mt-[12vh] min-h-[88vh] bg-neutral-100 p-16">
+    <div className="mt-[12vh] min-h-[88vh] bg-neutral-100 p-16 sm:mt-0 sm:min-h-svh">
       <div className="mx-auto grid grid-cols-1 items-center gap-[3rem] lg:grid-cols-2">
         <div className="flex w-full flex-col">
           <h1 className="text-4xl font-bold text-slate-700">
@@ -27,11 +27,10 @@ export default function HeroComponent() {
           <div className="mt-20 flex flex-row items-center sm:mt-6">
             <a
               className="flex items-center space-x-2 bg-indigo-400  px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:cursor-pointer hover:bg-amber-300"
-              href="pdfs/resume.pdf"
-              download="annahuisinga_resume.pdf"
+              href="/#about"
             >
-              <p>Resume</p>
-              <ArrowDownTrayIcon className="h-[1.5rem]" />
+              <p>See My Work</p>
+              <ArrowDownCircleIcon className="h-[1.5rem]" />
             </a>
           </div>
         </div>
