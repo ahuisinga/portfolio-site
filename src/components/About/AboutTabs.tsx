@@ -21,7 +21,7 @@ export default function AboutTabsComponent() {
                 href="pdfs/resume.pdf"
                 download="annahuisinga_resume.pdf"
               >
-                <p>Download Resume</p>
+                <p>Resume</p>
                 <ArrowDownTrayIcon className="h-[1.5rem]" />
               </a>
             </div>

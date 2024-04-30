@@ -26,12 +26,13 @@ export default function BioFragment() {
         is possible.
       </p>
       <p>
-        But if I had to describe myself in one word, it would be
-        &ldquo;people-person.&rdquo; I am a firm believer in the power of human
-        connection. I love engaging with others, whether it is sharing ideas,
-        swapping stories, or simply connecting over a shared passion.
-        Communication is key, and I am committed to fostering collaboration in
-        everything I do.
+        Away from the computer, I am a people person. I am a firm believer in
+        the power of human connection. I love engaging with others, whether it
+        is sharing ideas, swapping stories, or simply connecting over a shared
+        passion. Communication is key, and I am committed to fostering
+        collaboration in everything I do. You will often find me convincing
+        others that we should try a new restaurant, run a 5k, or read a good
+        book together.
       </p>
     </>
   );
