@@ -26,4 +26,8 @@
   .tab-panel {
     @apply py-3;
   }
+
+  .grow-110 {
+    @apply transition-all duration-200 ease-in-out hover:scale-110;
+  }
 }
