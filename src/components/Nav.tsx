@@ -24,7 +24,7 @@ export default function Nav() {
                 </h1> */}
           {/* larger nav */}
           <div className="hidden gap-6 md:flex">
-            <Link className="nav-link" href={"/"}>
+            <Link className="nav-link" href={"/#hero"}>
               HOME
             </Link>
             <Link className="nav-link" href={"#about"}>
@@ -52,7 +52,7 @@ export default function Nav() {
         <div className="flex h-full w-full flex-col items-center justify-center gap-6">
           <Link
             className="nav-link_mobile"
-            href={"/"}
+            href={"/#hero"}
             onClick={toggleMobileNav}
           >
             HOME

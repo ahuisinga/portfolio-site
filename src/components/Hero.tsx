@@ -4,7 +4,10 @@ import { ArrowDownCircleIcon } from "@heroicons/react/24/outline";
 
 export default function HeroComponent() {
   return (
-    <div className="mt-[12vh] min-h-[88vh] bg-neutral-100 p-16 md:mt-0 md:min-h-svh">
+    <div
+      className="mt-[12vh] min-h-[88vh] bg-neutral-100 p-16 md:mt-0 md:min-h-svh"
+      id="hero"
+    >
       <div className="mx-auto grid grid-cols-1 items-center gap-[3rem] lg:grid-cols-2">
         <div className="flex w-full flex-col">
           <h1 className="text-4xl font-bold text-slate-700">
@@ -26,7 +29,7 @@ export default function HeroComponent() {
           </p>
           <div className="mt-20 flex flex-row items-center sm:mt-6">
             <a
-              className="flex items-center space-x-2 bg-indigo-400  px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:cursor-pointer hover:bg-amber-300"
+              className="button-lg flex items-center space-x-2 bg-indigo-400 hover:bg-amber-300"
               href="/#about"
             >
               <p>See My Work</p>
