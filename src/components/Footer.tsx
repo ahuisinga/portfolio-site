@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex w-full flex-row items-center justify-between bg-neutral-400 px-8 py-4 text-lg text-white">
+    <div className="flex w-full flex-row items-center justify-between bg-neutral-400 px-8 py-4 text-lg text-white">
       <p>Anna Huisinga &#169; 2024</p>
       <div>
         <div className="flex flex-row space-x-4">
@@ -40,6 +40,6 @@ export default function Footer() {
           Icons by <a href="https://icons8.com">icons8.com</a>
         </p>
       </div>
-    </footer>
+    </div>
   );
 }
