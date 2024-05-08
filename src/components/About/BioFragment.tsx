@@ -1,6 +1,6 @@
 export default function BioFragment() {
   return (
-    <>
+    <div className="space-y-2">
       <p>
         Hi! I&apos;m Anna, a software developer with a knack for crafting
         innovative solutions and tackling the nittiest and grittiest of
@@ -34,6 +34,6 @@ export default function BioFragment() {
         others that we should try a new restaurant, run a 5k, or read a good
         book together.
       </p>
-    </>
+    </div>
   );
 }

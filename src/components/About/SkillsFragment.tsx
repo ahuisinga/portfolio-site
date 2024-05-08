@@ -16,31 +16,25 @@ export default function SkillsFragment() {
     "Agile Methodologies",
     "SQL and NoSQL",
     "Technical Documentation",
+    "REST APIs",
   ];
   return (
-    <>
+    <div className="space-y-2">
       <div>
-        <div className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
+        <span className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
           <AcademicCapIcon className="h-[1.6rem]" />
           <p>Education</p>
-        </div>
-        <p>The University of Alabama:</p>
-        <ul className="list-inside list-disc">
-          <li>Master&apos;s degree in CS</li>
-          <li>Bachelor&apos;s degree in CS</li>
-        </ul>
+        </span>
+        Master&apos;s degree in CS & Bachelor&apos;s degree in CS from The
+        University of Alabama
       </div>
       <div>
-        <div className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
+        <span className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
           <ComputerDesktopIcon className="h-[1.6rem]" />
           <p>Technical Skills</p>
-        </div>
-        <ul className="list-inside list-disc">
-          {techSkills.sort().map((skill, index) => (
-            <li key={index}>{skill}</li>
-          ))}
-        </ul>
+        </span>
+        {techSkills.sort().join(", ")}
       </div>
-    </>
+    </div>
   );
 }
