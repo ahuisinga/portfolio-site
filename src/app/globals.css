@@ -20,7 +20,7 @@
   }
 
   .tab {
-    @apply ui-selected:border-b-4 w-full border-b-2 border-rose-700 py-2.5 text-lg font-bold leading-5 text-rose-700 focus:outline-none;
+    @apply w-full rounded py-2.5 text-lg font-bold leading-5 text-rose-700 hover:bg-neutral-500/[0.12] focus:outline-none ui-selected:bg-rose-700 ui-selected:text-white;
   }
 
   .tab-panel {
@@ -29,5 +29,17 @@
 
   .grow-110 {
     @apply transition-all duration-200 ease-in-out hover:scale-110;
+  }
+
+  .badge {
+    @apply w-min rounded-2xl px-2 py-1;
+  }
+
+  .button-md {
+    @apply px-[1rem] py-[0.5rem] text-base uppercase text-white transition-all duration-300 hover:cursor-pointer;
+  }
+
+  .button-lg {
+    @apply px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:cursor-pointer;
   }
 }
