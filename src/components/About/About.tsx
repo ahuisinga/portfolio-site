@@ -27,7 +27,7 @@ export default function AboutComponent() {
             <BioFragment />
           </div>
           <div className="mt-4 grid text-slate-500">
-            <h3 className="mb-4 text-lg font-medium text-slate-700">TLDR;</h3>
+            <h3 className="mb-4 text-lg font-medium text-slate-700">TL;DR</h3>
             <SkillsFragment />
           </div>
         </div>

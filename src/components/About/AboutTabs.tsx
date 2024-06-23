@@ -2,13 +2,12 @@
 import { Tab } from "@headlessui/react";
 import SkillsFragment from "./SkillsFragment";
 import BioFragment from "./BioFragment";
-import ArrowDownTrayIcon from "@heroicons/react/24/outline/ArrowDownTrayIcon";
 
 export default function AboutTabsComponent() {
   return (
     <Tab.Group>
       <Tab.List className="flex space-x-1 rounded bg-neutral-500/[0.12] p-1">
-        <Tab className="tab">TLDR;</Tab>
+        <Tab className="tab">TL;DR</Tab>
         <Tab className="tab">Read More</Tab>
       </Tab.List>
       <Tab.Panels>

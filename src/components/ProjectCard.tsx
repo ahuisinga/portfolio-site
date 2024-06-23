@@ -28,7 +28,7 @@ export default function ProjectCardComponent({
       <div className="md:col-span-6">
         <h3>
           <a
-            className="group/link inline-flex items-baseline text-xl font-medium duration-300 hover:text-indigo-300 focus-visible:text-indigo-300"
+            className="group/link inline-flex items-baseline text-base font-bold text-slate-500 duration-300 hover:text-indigo-300 focus-visible:font-semibold focus-visible:text-indigo-300 sm:text-xl sm:font-medium sm:hover:font-semibold"
             href={url}
             rel="noreferrer noopener"
             aria-label={`${title} (opens in a new tab)`}
@@ -45,7 +45,7 @@ export default function ProjectCardComponent({
         <ul className="flex flex-wrap space-x-1">
           {attributes?.map((val, idx) => (
             <li key={idx}>
-              <div className="badge mt-1 bg-indigo-300 text-sm text-amber-300">
+              <div className="badge mt-1 border-2 border-amber-300 bg-amber-300/20 text-sm text-indigo-300">
                 {val}
               </div>
             </li>
