@@ -18,11 +18,6 @@ export default function Nav() {
             <h1>ANNA</h1>
             <h1 className="rotate-180 text-amber-300">HUISINGA</h1>
           </div>
-          {/* <h1 className="flex-[0.6] font-bold text-xl text-white">
-                    ANNA
-                    <span className="text-amber-300">HUISINGA</span>
-                </h1> */}
-          {/* larger nav */}
           <div className="hidden gap-6 md:flex">
             <Link className="nav-link" href={"/#hero"}>
               HOME
@@ -32,9 +27,6 @@ export default function Nav() {
             </Link>
             <Link className="nav-link" href={"/#projects"}>
               PROJECTS
-            </Link>
-            <Link className="nav-link" href={"/#contactMe"}>
-              CONTACT
             </Link>
           </div>
           <Bars3Icon
@@ -70,13 +62,6 @@ export default function Nav() {
             onClick={toggleMobileNav}
           >
             PROJECTS
-          </Link>
-          <Link
-            className="nav-link_mobile"
-            href={"/#contactMe"}
-            onClick={toggleMobileNav}
-          >
-            CONTACT
           </Link>
         </div>
       </div>

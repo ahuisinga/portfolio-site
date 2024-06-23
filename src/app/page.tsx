@@ -1,5 +1,4 @@
 import AboutComponent from "@/components/About/About";
-import ContactComponent from "@/components/Contact";
 import HeroComponent from "@/components/Hero";
 import Nav from "@/components/Nav";
 import ProjectsComponent from "@/components/Projects";
@@ -12,7 +11,7 @@ export default function Home() {
       <Nav />
       <AboutComponent />
       <ProjectsComponent />
-      <ContactComponent />
+      {/* <ContactComponent /> */}
       <Footer />
     </main>
   );
