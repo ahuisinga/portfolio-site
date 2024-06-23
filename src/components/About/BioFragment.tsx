@@ -7,32 +7,38 @@ export default function BioFragment() {
         challenges. With over three years of experience under my belt, I am
         currently part of a dynamic team at the forefront of harnessing the
         power of the Salesforce platform to deliver seamless data solutions to
-        our users.
+        our users. My role involves managing our data schema, ensuring a clean
+        and intuitive UI, designing efficient backend data processes, and
+        constantly proposing innovative ideas to enhance our users&apos; access
+        to client information.
       </p>
       <p>
-        In the world of Salesforce, I wear many hats. From writing Apex code
-        that processes millions of records daily to designing intuitive
-        front-end experiences, I am all about making technology work smarter,
-        not harder. Whether it is optimizing security models or fine-tuning our
-        devops pipeline, I thrive on the thrill of problem-solving. In the words
-        of John &lsquo;Hannibal&rsquo; Smith, &ldquo;I love it when a plan comes
-        together!&rdquo;
+        I earned both my Bachelor of Science and Master of Science in Computer
+        Science from the University of Alabama. Staying for my Master&apos;s was
+        an easy decision — not only for the incredible learning opportunities
+        but also because of the multiple football national championships
+        &#x1F601;.{" "}
+        <span className="font-semibold italic text-red-700">ROLL TIDE!</span>
       </p>
       <p>
-        A lifelong learner, I am always eager to dive into new challenges and
-        explore emerging technologies. Whether it is mastering the latest tech
-        trends or embarking on creative side projects, I am constantly seeking
-        out opportunities to expand my skill set and push the boundaries of what
-        is possible.
+        One of my greatest strengths is my love for learning. Whether it&apos;s
+        picking up new skills or tackling complex challenges, I thrive on
+        pushing my boundaries and discovering new solutions. I don&apos;t like
+        to be bored, which is why in my free time I love to create mini personal
+        websites. This hobby allows me to play with different frameworks and
+        APIs, constantly expanding my technical repertoire and staying ahead of
+        the curve in the ever-evolving tech landscape. When I can&apos;t stare
+        at the screen any longer, I&apos;ll turn to my current crochet or
+        embroidery project to see what I can do with some strings.
       </p>
       <p>
-        Away from the computer, I am a people person. I am a firm believer in
-        the power of human connection. I love engaging with others, whether it
-        is sharing ideas, swapping stories, or simply connecting over a shared
-        passion. Communication is key, and I am committed to fostering
-        collaboration in everything I do. You will often find me convincing
-        others that we should try a new restaurant, run a 5k, or read a good
-        book together.
+        This eagerness to learn is matched only by my excitement to share my new
+        knowledge. When that last piece of stubborn code falls in to place, I do
+        a little dance and then run to tell someone what I discovered. As a
+        people person, I relish the opportunity to discuss a wide range of
+        topics, especially those I&apos;m passionate about. Ask me about Alabama
+        football, Taylor Swift, women&apos;s sports, or my latest read. I&apos;m
+        always up for a good conversation!
       </p>
     </div>
   );

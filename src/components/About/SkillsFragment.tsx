@@ -1,6 +1,7 @@
 import {
   AcademicCapIcon,
   ComputerDesktopIcon,
+  ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
 
 export default function SkillsFragment() {
@@ -34,6 +35,13 @@ export default function SkillsFragment() {
           <p>Technical Skills</p>
         </span>
         {techSkills.sort().join(", ")}
+      </div>
+      <div>
+        <span className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
+          <ChatBubbleLeftRightIcon className="h-[1.6rem]" />
+          <p>Favorite Topics</p>
+        </span>
+        Sports!, Books, The eras of Taylor Swift
       </div>
     </div>
   );
