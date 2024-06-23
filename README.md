@@ -73,7 +73,6 @@ To get a local copy up and running follow these steps.
 ### Prerequisites
 
 - Install node and npm
-  - Follow the steps on the [official Python site](https://www.python.org/downloads) to setup python on your computer. Make sure to install a version >= 3.6.
   - Verify installation
   ```bash
   npm -v
@@ -84,10 +83,10 @@ To get a local copy up and running follow these steps.
 
 ### Starting a development instance
 
-1. Clone the repo
+1. Fork and clone the repo
 
 ```bash
-git clone https://github.com/ahuisinga/portfolio-site.git
+git clone https://github.com/<yourUserNameHere>/portfolio-site.git
 ```
 
 2. Install dependencies
@@ -101,6 +100,8 @@ npm install
 ```bash
 npm run dev
 ```
+
+4. It should open up on http://localhost:3000. Depending on what else you have running, it might be a different port.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
