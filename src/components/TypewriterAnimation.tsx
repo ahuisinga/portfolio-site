@@ -9,7 +9,7 @@ export default function TypewriterAnimation() {
         keyStrokeDelay={100}
         cursor={true}
         stopCursor={true}
-        className="text-3xl font-bold text-red-300 xl:text-4xl"
+        className="text-2xl font-bold text-red-300 sm:text-3xl xl:text-4xl"
       />
       <TypewriterText
         text="WOMAN IN TECH."
@@ -17,7 +17,7 @@ export default function TypewriterAnimation() {
         cursor={true}
         stopCursor={true}
         initialDelay={1000}
-        className="text-3xl font-bold text-amber-300 xl:text-4xl"
+        className="text-2xl font-bold text-amber-300 sm:text-3xl xl:text-4xl"
       />
       <TypewriterText
         text="LIFE-LONG SPORTS FAN."
@@ -25,14 +25,14 @@ export default function TypewriterAnimation() {
         cursor={true}
         stopCursor={true}
         initialDelay={2400}
-        className="text-3xl font-bold text-emerald-500 xl:text-4xl"
+        className="text-2xl font-bold text-emerald-500 sm:text-3xl xl:text-4xl"
       />
       <TypewriterText
         text="LOVER OF PASTA AND CHEESE."
         keyStrokeDelay={100}
         cursor={true}
         initialDelay={4500}
-        className="text-3xl font-bold text-cyan-400 xl:text-4xl"
+        className="text-2xl font-bold text-cyan-400 sm:text-3xl xl:text-4xl"
       />
     </div>
   );
