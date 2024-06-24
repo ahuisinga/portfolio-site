@@ -12,6 +12,14 @@ export default function ProjectsComponent() {
       attributes: ["Python"],
     },
     {
+      title: "Fun Spotify App",
+      description:
+        "If you're like me, you've probably wondered what your Spotify Wrapped might look like right now. I wanted to play with the Spotify API and confirm that Taylor is still my #1.",
+      url: "https://github.com/ahuisinga/fun-spotify-app",
+      img: "/images/spotify_screenshot.png",
+      attributes: ["React", "Express", "Node"],
+    },
+    {
       title: "EAT!",
       description:
         "For when you can't decide what to eat (which is a problem I have a lot). Still a work in progress.",

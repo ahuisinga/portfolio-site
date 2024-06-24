@@ -22,7 +22,7 @@ export default function ProjectCardComponent({
         src={img}
         height={120}
         width={200}
-        alt="Spreadsheet Comparator Screenshot"
+        alt={title}
         className="md:col-span-2 "
       />
       <div className="md:col-span-6">

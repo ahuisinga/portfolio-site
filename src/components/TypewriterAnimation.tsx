@@ -12,7 +12,7 @@ export default function TypewriterAnimation() {
         className="text-2xl font-bold text-red-300 sm:text-3xl xl:text-4xl"
       />
       <TypewriterText
-        text="WOMAN IN TECH."
+        text="WOMAN IN STEM."
         keyStrokeDelay={100}
         cursor={true}
         stopCursor={true}

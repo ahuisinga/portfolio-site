@@ -41,7 +41,7 @@ export default function SkillsFragment() {
           <ChatBubbleLeftRightIcon className="h-[1.6rem]" />
           <p>Favorite Topics</p>
         </span>
-        Sports!, Books, The eras of Taylor Swift
+        My Goodreads shelves &#x2022; Sports! &#x2022; Any Taylor Swift era
       </div>
     </div>
   );

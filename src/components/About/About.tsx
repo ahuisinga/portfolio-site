@@ -1,7 +1,4 @@
-import {
-  ArrowDownTrayIcon,
-  ComputerDesktopIcon,
-} from "@heroicons/react/24/outline";
+import { ArrowDownTrayIcon, ArrowDownIcon } from "@heroicons/react/24/outline";
 import { AcademicCapIcon } from "@heroicons/react/24/outline";
 import AboutTabsComponent from "./AboutTabs";
 import SkillsFragment from "./SkillsFragment";
@@ -27,7 +24,9 @@ export default function AboutComponent() {
             <BioFragment />
           </div>
           <div className="mt-4 grid text-slate-500">
-            <h3 className="mb-4 text-lg font-medium text-slate-700">TL;DR</h3>
+            <h3 className="mb-4 flex text-lg font-medium text-slate-700">
+              TL;DR <ArrowDownIcon className="h-[1.6rem]" />
+            </h3>
             <SkillsFragment />
           </div>
         </div>

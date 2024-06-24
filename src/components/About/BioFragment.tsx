@@ -16,9 +16,8 @@ export default function BioFragment() {
         I earned both my Bachelor of Science and Master of Science in Computer
         Science from the University of Alabama. Staying for my Master&apos;s was
         an easy decision — not only for the incredible learning opportunities
-        but also because of the multiple football national championships
-        &#x1F601;.{" "}
-        <span className="font-semibold italic text-red-700">ROLL TIDE!</span>
+        but also because of the multiple football national championships.
+        <span className="font-semibold italic text-red-700"> ROLL TIDE!</span>
       </p>
       <p>
         One of my greatest strengths is my love for learning. Whether it&apos;s
