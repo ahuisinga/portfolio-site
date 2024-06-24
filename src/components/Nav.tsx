@@ -16,7 +16,7 @@ export default function Nav() {
         <div className="mx-auto flex h-full w-[80%] items-center justify-between">
           <div className="flex flex-[0.6] cursor-default text-2xl font-bold text-white">
             <h1>ANNA</h1>
-            <h1 className="rotate-180 text-amber-300">HUISINGA</h1>
+            <h1 className="text-amber-300">HUISINGA</h1>
           </div>
           <div className="hidden gap-6 md:flex">
             <Link className="nav-link" href={"/#hero"}>

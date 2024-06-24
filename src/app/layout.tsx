@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Created by Anna",
+  title: "Anna Huisinga",
+  description: "Learn more about me!",
 };
 
 export default function RootLayout({
@@ -18,11 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
-        {/* <Nav /> */}
-        {children}
-        {/* <Footer /> */}
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

@@ -1,7 +1,5 @@
 <a name="readme-top"></a>
 
-### This is Still a Work in Progress
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -12,7 +10,7 @@
 <h1 align="center">annahuisinga.com</h1>
 
   <p align="center">
-    built with <a href="https://nextjs.org/">Next.js</a> and hosted with <a href="/">tbd</a>
+    built with <a href="https://nextjs.org/">Next.js</a> and hosted with <a href="https://vercel.com">Vercel</a>
   </p>
 </div>
 

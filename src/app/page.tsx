@@ -11,7 +11,6 @@ export default function Home() {
       <Nav />
       <AboutComponent />
       <ProjectsComponent />
-      {/* <ContactComponent /> */}
       <Footer />
     </main>
   );
