@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -8,9 +8,14 @@ export const metadata: Metadata = {
   title: "Anna Huisinga",
   description: "Learn more about me!",
   openGraph: {
-    url: "https://portfolio-site-eight-khaki.vercel.app/",
+    url: "https://annahuisinga.com",
     siteName: "Anna Huisinga",
+    type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "rgb(129 140 248)",
 };
 
 export default function RootLayout({
