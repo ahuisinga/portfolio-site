@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Anna Huisinga",
   description: "Learn more about me!",
+  openGraph: {
+    url: "https://portfolio-site-eight-khaki.vercel.app/",
+    siteName: "Anna Huisinga",
+  },
 };
 
 export default function RootLayout({
