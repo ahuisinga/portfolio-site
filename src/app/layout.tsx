@@ -5,12 +5,34 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://annahuisinga.com"),
   title: "Anna Huisinga",
   description: "Learn more about me!",
   openGraph: {
     url: "https://annahuisinga.com",
     siteName: "Anna Huisinga",
     type: "website",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Anna Huisinga's Portfolio",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Anna Huisinga's Portfolio",
+        type: "image/png",
+      },
+    ],
   },
 };
 
