@@ -22,7 +22,7 @@ export default function ProjectsComponent() {
     {
       title: "EAT!",
       description:
-        "For when you can't decide what to eat (which is a problem I have a lot). Still a work in progress.",
+        "For when you can't decide where to eat with friends (which is a problem I have a lot). Still a work in progress.",
       url: "https://github.com/ahuisinga/meal-vote-app",
       img: "/images/eat_screenshot.png",
       attributes: ["Next.js", "TypeScript", "DaisyUI", "MongoDB", "Prisma"],
@@ -30,7 +30,7 @@ export default function ProjectsComponent() {
     {
       title: "This Portfolio Site",
       description:
-        "I'm not a UI designer in my day job, so this has been a fun project to dive back into CSS and spend time moving items pixel by pixel. Also, I drew the hero image myself :).",
+        "I'm not a UI designer in my day job, so this has been a fun project to dive back into CSS and spend time moving items pixel by pixel. And dust off my Procreate sketching skills :)",
       url: "https://github.com/ahuisinga/portfolio-site",
       img: "/images/portfolio_screenshot.png",
       attributes: ["Next.js", "React", "TypeScript", "Tailwind"],
