@@ -11,7 +11,7 @@ const config: Config = {
     extend: {
       keyframes: {
         cursor: {
-          "50%": { opacity: 0 },
+          "50%": { opacity: "0" },
         },
       },
     },
