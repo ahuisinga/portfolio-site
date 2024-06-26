@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: new URL(
-          (process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            ? process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            : "") + "/images/og-image.png",
-        ),
+        url: `${
+          process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
+            ? "https://" + process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
+            : ""
+        }/images/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Anna Huisinga's Portfolio",
@@ -29,11 +29,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [
       {
-        url: new URL(
-          (process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            ? process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            : "") + "/images/og-image.png",
-        ),
+        url: `${
+          process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
+            ? "https://" + process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
+            : ""
+        }/images/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Anna Huisinga's Portfolio",
