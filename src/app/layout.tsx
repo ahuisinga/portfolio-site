@@ -23,17 +23,6 @@ export const metadata: Metadata = {
         alt: "Anna Huisinga's Portfolio",
         type: "image/png",
       },
-      {
-        url: `${
-          process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            ? "https://" + process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            : ""
-        }/images/og-image-small.png`,
-        width: 400,
-        height: 400,
-        alt: "Anna Huisinga's Portfolio",
-        type: "image/png",
-      },
     ],
   },
   twitter: {
@@ -47,17 +36,6 @@ export const metadata: Metadata = {
         }/images/og-image.png`,
         width: 1200,
         height: 630,
-        alt: "Anna Huisinga's Portfolio",
-        type: "image/png",
-      },
-      {
-        url: `${
-          process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            ? "https://" + process.env.NEXT_PUBLIC_VERCEL_PROJECT_PRODUCTION_URL
-            : ""
-        }/images/og-image-small.png`,
-        width: 400,
-        height: 400,
         alt: "Anna Huisinga's Portfolio",
         type: "image/png",
       },
