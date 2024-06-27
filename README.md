@@ -107,7 +107,7 @@ npm run dev
 
 ## Contact
 
-Anna Huisinga - anna.huisinga@gmail.com
+Anna Huisinga
 
 Project Link: [https://github.com/ahuisinga/portfolio-site](https://github.com/ahuisinga/portfolio-site)
 
