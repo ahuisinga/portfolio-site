@@ -5,7 +5,7 @@ import { ArrowDownCircleIcon } from "@heroicons/react/24/outline";
 export default function HeroComponent() {
   return (
     <div
-      className="min-h-[88vh] bg-neutral-100 pb-16 pl-16 pr-16 pt-[16vh] md:min-h-svh md:pt-16"
+      className="ml-16 mr-16 flex min-h-[88vh] max-w-[1200px] justify-center bg-neutral-100 pb-16 pt-[16vh] md:min-h-svh md:pt-16"
       id="hero"
     >
       <div className="mx-auto grid grid-cols-1 items-center gap-[3rem] lg:grid-cols-2">

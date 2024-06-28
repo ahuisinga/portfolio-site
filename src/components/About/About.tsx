@@ -7,7 +7,7 @@ import BioFragment from "./BioFragment";
 export default function AboutComponent() {
   return (
     <section id="about" className="pt-[12vh]">
-      <div className=" px-16 py-4">
+      <div className="mx-16 max-w-[1200px] py-4 sm:mx-32">
         <div className="">
           <h3 className="text-2xl font-bold uppercase text-red-300">
             About Me

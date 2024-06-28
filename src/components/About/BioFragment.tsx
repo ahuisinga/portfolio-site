@@ -1,6 +1,6 @@
 export default function BioFragment() {
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 text-lg">
       <p>
         Hi! I&apos;m Anna, a software developer with a knack for crafting
         innovative solutions and tackling the nittiest and grittiest of

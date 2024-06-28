@@ -41,7 +41,7 @@ export default function ProjectCardComponent({
             </span>
           </a>
         </h3>
-        <p className="mt-2 text-base">{description}</p>
+        <p className="mt-2 text-base sm:text-lg">{description}</p>
         <ul className="flex flex-wrap space-x-1">
           {attributes?.map((val, idx) => (
             <li key={idx}>

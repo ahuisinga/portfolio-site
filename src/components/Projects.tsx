@@ -38,13 +38,13 @@ export default function ProjectsComponent() {
   ];
   return (
     <section id="projects" className="pt-[12vh]">
-      <div className="px-16 py-4">
+      <div className="mx-16 max-w-[1200px] py-4 sm:mx-32">
         <h3 className="text-2xl font-bold uppercase text-amber-300">
           Featured Projects
         </h3>
         <div className="w-56 bg-amber-300 py-1 sm:w-[22rem]"></div>
-        <div className="grid lg:grid-cols-3">
-          <ul className="mt-2 lg:col-span-2">
+        <div className="grid ">
+          <ul className="mt-2 ">
             {projectList.map((project, index) => (
               <li key={index}>
                 <ProjectCardComponent

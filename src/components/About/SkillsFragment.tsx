@@ -20,9 +20,9 @@ export default function SkillsFragment() {
     "REST APIs",
   ];
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 text-lg">
       <div>
-        <span className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
+        <span className="flex flex-row items-center space-x-2 text-xl uppercase text-rose-700">
           <AcademicCapIcon className="h-[1.6rem]" />
           <p>Education</p>
         </span>
@@ -30,14 +30,14 @@ export default function SkillsFragment() {
         University of Alabama
       </div>
       <div>
-        <span className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
+        <span className="flex flex-row items-center space-x-2 text-xl uppercase text-rose-700">
           <ComputerDesktopIcon className="h-[1.6rem]" />
           <p>Technical Skills</p>
         </span>
         {techSkills.sort().join(", ")}
       </div>
       <div>
-        <span className="flex flex-row items-center space-x-2 text-lg uppercase text-rose-700">
+        <span className="flex flex-row items-center space-x-2 text-xl uppercase text-rose-700">
           <ChatBubbleLeftRightIcon className="h-[1.6rem]" />
           <p>Favorite Topics</p>
         </span>
