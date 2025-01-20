@@ -133,7 +133,7 @@ Project Link: [https://github.com/ahuisinga/portfolio-site](https://github.com/a
 [stars-url]: https://github.com/ahuisinga/portfolio-site/stargazers
 [license-shield]: https://img.shields.io/github/license/ahuisinga/portfolio-site.svg?style=for-the-badge
 [license-url]: https://github.com/ahuisinga/portfolio-site/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=white
 [linkedin-url]: https://linkedin.com/in/annahuisinga
 [product-screenshot]: public/images/portfolio_screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
