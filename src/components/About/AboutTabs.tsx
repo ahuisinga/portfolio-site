@@ -1,3 +1,4 @@
+// DEPRECATED - NO LONGER USING TABS
 "use client";
 import { Tab } from "@headlessui/react";
 import SkillsFragment from "./SkillsFragment";
