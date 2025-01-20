@@ -2,42 +2,48 @@ export default function BioFragment() {
   return (
     <div className="space-y-2 text-lg">
       <p>
-        Hi! I&apos;m Anna, a software developer with a knack for crafting
-        innovative solutions and tackling the nittiest and grittiest of
-        challenges. With over three years of experience under my belt, I am
-        currently part of a dynamic team at the forefront of harnessing the
-        power of the Salesforce platform to deliver seamless data solutions to
-        our users. My role involves managing our data schema, ensuring a clean
-        and intuitive UI, designing efficient backend data processes, and
-        constantly proposing innovative ideas to enhance our users&apos; access
-        to client information.
+        Hi! I&apos;m Anna, a software developer who thrives on turning complex
+        puzzles into elegant, user-friendly solutions. My current playground is
+        the Salesforce platform, where I design and implement everything from
+        data schemas to UI components, backend services, and app
+        security—basically, if it&apos;s part of our system, I&apos;ve probably
+        touched it. But my favorite part of the job isn&apos;t just the code;
+        it&apos;s presenting ideas to our users and sharing those
+        &quot;aha!&quot; moments with the team. There&apos;s nothing like
+        solving a tricky problem and celebrating that win together.
       </p>
       <p>
-        I earned both my Bachelor of Science and Master of Science in Computer
-        Science from the University of Alabama. Staying for my Master&apos;s was
-        an easy decision — not only for the incredible learning opportunities
-        but also because of the multiple football national championships.
-        <span className="font-semibold italic text-red-700"> ROLL TIDE!</span>
+        When I&apos;m not coding at work, you can find me mentoring newer team
+        members, especially recent graduates who are just stepping into the tech
+        world. Helping others grow is just as rewarding as writing the perfect
+        algorithm. I also oversee deployments and collaborate on solution
+        designs to ensure our team&apos;s work is rock-solid and future-proof.
       </p>
       <p>
-        One of my greatest strengths is my love for learning. Whether it&apos;s
-        picking up new skills or tackling complex challenges, I thrive on
-        pushing my boundaries and discovering new solutions. I don&apos;t like
-        to be bored, which is why in my free time I love to create mini personal
-        websites. This hobby allows me to play with different frameworks and
-        APIs, constantly expanding my technical repertoire and staying ahead of
-        the curve in the ever-evolving tech landscape. When I can&apos;t stare
-        at the screen any longer, I&apos;ll turn to my current crochet or
-        embroidery project to see what I can do with some strings.
+        When I&apos;m not coding anywhere else, you can find me reading,
+        crafting, watching sports, or talking about all of the above. I earned
+        both my Bachelor&apos;s and Master&apos;s degrees in Computer Science
+        from the University of Alabama.{" "}
+        <span className="italic">Roll Tide!</span> So as you&apos;d guess,
+        I&apos;m a huge football fan, but my love for sports doesn&apos;t stop
+        there. I&apos;m especially passionate about advocating for women&apos;s
+        sports and leveling the playing field when it comes to media awareness.
+        If there&apos;s a game on, there&apos;s a good chance I&apos;m watching.
       </p>
       <p>
-        This eagerness to learn is matched only by my excitement to share my new
-        knowledge. When that last piece of stubborn code falls in to place, I do
-        a little dance and then run to tell someone what I discovered. As a
-        people person, I relish the opportunity to discuss a wide range of
-        topics, especially those I&apos;m passionate about. Ask me about Alabama
-        football, Taylor Swift, women&apos;s sports, or my latest read. I&apos;m
-        always up for a good conversation!
+        Books are another passion of mine - epic fantasy, rom-com, interesting
+        memoirs - I read it all. I&apos;m always on the hunt for the next great
+        read or debating theories about what&apos;s coming next in my favorite
+        fictional worlds. If there is no game on or I&apos;m between books, then
+        out come the craft supplies. Building physical projects is just as
+        satisfying coding virtual ones. (And de-tangling yarn can be just as
+        frustrating as hunting down the source of a bug.) Then it&apos;s fun to
+        swap creations with friends once finished!
+      </p>
+      <p>
+        Whether I&apos;m diving into a coding challenge, mentoring a colleague,
+        or cheering on my favorite team, I bring energy, curiosity, and a sense
+        of fun to everything I do.
       </p>
     </div>
   );

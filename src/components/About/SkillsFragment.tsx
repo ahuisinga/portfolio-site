@@ -42,6 +42,7 @@ export default function SkillsFragment() {
           <p>Favorite Topics</p>
         </span>
         My Goodreads shelves &#x2022; Sports! &#x2022; Any Taylor Swift era
+        &#x2022; Favorite yarn colors
       </div>
     </div>
   );

@@ -18,13 +18,13 @@ export default function AboutComponent() {
         <div className="py-3 sm:hidden">
           <AboutTabsComponent />
         </div>
-        {/* Larger devices show information side by side */}
+        {/* Larger devices show information stacked */}
         <div className="hidden flex-col py-3 sm:flex">
           <div className="text-slate-500">
             <BioFragment />
           </div>
           <div className="mt-4 grid text-slate-500">
-            <h3 className="mb-4 flex text-lg font-medium text-slate-700">
+            <h3 className="mb-4 flex text-lg font-medium text-slate-500">
               TL;DR <ArrowDownIcon className="h-[1.6rem]" />
             </h3>
             <SkillsFragment />
