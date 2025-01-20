@@ -12,7 +12,7 @@ export default function AboutComponent() {
           <h3 className="text-2xl font-bold uppercase text-red-300">
             About Me
           </h3>
-          <div className="w-56 bg-red-300 py-1 sm:w-[22rem]"></div>
+          <div className="w-full bg-red-300 py-1 lg:w-1/2"></div>
         </div>
         {/* Smaller devices show a tab to toggle info */}
         <div className="py-3 sm:hidden">

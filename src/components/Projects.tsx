@@ -42,7 +42,7 @@ export default function ProjectsComponent() {
         <h3 className="text-2xl font-bold uppercase text-amber-300">
           Featured Projects
         </h3>
-        <div className="w-56 bg-amber-300 py-1 sm:w-[22rem]"></div>
+        <div className="w-full bg-amber-300 py-1 lg:w-1/2"></div>
         <div className="grid ">
           <ul className="mt-2 ">
             {projectList.map((project, index) => (
