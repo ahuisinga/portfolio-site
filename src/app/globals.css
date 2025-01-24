@@ -1,45 +1,68 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-@layer components {
-  .nav-link {
-    @apply w-fit cursor-pointer text-lg text-white after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-amber-300 after:transition after:duration-300 after:content-[''] hover:text-amber-300 after:hover:scale-x-100;
+@theme {
+  @keyframes cursor {
+    50% {
+      opacity: 0;
+    }
   }
-  .nav-link_mobile {
-    @apply w-fit cursor-pointer text-lg text-white after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-amber-300 after:transition after:duration-300 after:content-[''] hover:text-amber-300 after:hover:scale-x-100;
-  }
+}
 
-  .show-cursor {
-    @apply after:animate-[cursor_1.1s_infinite_step-start] after:content-['|'];
-  }
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
 
-  .hover-highlight {
-    @apply inline-block bg-gradient-to-l from-transparent from-50% to-cyan-400 to-50% bg-right transition-all duration-500 ease-out hover:bg-left;
-    background-size: 200%;
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
   }
+}
 
-  .tab {
-    @apply w-full rounded py-2.5 text-lg font-bold leading-5 text-rose-700 hover:bg-neutral-500/[0.12] focus:outline-none ui-selected:bg-rose-700 ui-selected:text-white;
-  }
+@utility nav-link {
+  @apply w-fit cursor-pointer text-lg text-white after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-amber-300 after:transition after:duration-300 after:content-[''] hover:text-amber-300 hover:after:scale-x-100;
+}
 
-  .tab-panel {
-    @apply py-3;
-  }
+@utility nav-link_mobile {
+  @apply w-fit cursor-pointer text-lg text-white after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-amber-300 after:transition after:duration-300 after:content-[''] hover:text-amber-300 hover:after:scale-x-100;
+}
 
-  .grow-110 {
-    @apply transition-all duration-200 ease-in-out hover:scale-110;
-  }
+@utility show-cursor {
+  @apply after:animate-[cursor_1.1s_infinite_step-start] after:content-['|'];
+}
 
-  .badge {
-    @apply w-min rounded-2xl px-2 py-1;
-  }
+@utility hover-highlight {
+  @apply inline-block bg-linear-to-l from-transparent from-50% to-cyan-400 to-50% bg-right transition-all duration-500 ease-out hover:bg-left;
+  background-size: 200%;
+}
 
-  .button-md {
-    @apply px-[1rem] py-[0.5rem] text-base uppercase text-white transition-all duration-300 hover:cursor-pointer;
-  }
+@utility tab {
+  @apply w-full rounded-sm py-2.5 text-lg font-bold leading-5 text-rose-700 hover:bg-neutral-500/[0.12] focus:outline-hidden ui-selected:bg-rose-700 ui-selected:text-white;
+}
 
-  .button-lg {
-    @apply px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:cursor-pointer;
-  }
+@utility tab-panel {
+  @apply py-3;
+}
+
+@utility grow-110 {
+  @apply transition-all duration-200 ease-in-out hover:scale-110;
+}
+
+@utility badge {
+  @apply w-min rounded-2xl px-2 py-1;
+}
+
+@utility button-md {
+  @apply px-[1rem] py-[0.5rem] text-base uppercase text-white transition-all duration-300 hover:cursor-pointer;
+}
+
+@utility button-lg {
+  @apply px-[1rem] py-[0.5rem] text-lg uppercase text-white transition-all duration-300 hover:cursor-pointer;
 }

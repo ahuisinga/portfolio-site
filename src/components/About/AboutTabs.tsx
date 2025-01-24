@@ -7,7 +7,7 @@ import BioFragment from "./BioFragment";
 export default function AboutTabsComponent() {
   return (
     <Tab.Group>
-      <Tab.List className="flex space-x-1 rounded bg-neutral-500/[0.12] p-1">
+      <Tab.List className="flex space-x-1 rounded-sm bg-neutral-500/[0.12] p-1">
         <Tab className="tab">TL;DR</Tab>
         <Tab className="tab">Read More</Tab>
       </Tab.List>

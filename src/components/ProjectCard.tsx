@@ -17,7 +17,7 @@ export default function ProjectCardComponent({
   attributes,
 }: Props) {
   return (
-    <div className="group relative grid min-h-[150px] grid-cols-1 gap-4 rounded p-8 text-slate-500 transition-all duration-300 md:grid-cols-8 md:hover:bg-neutral-200 md:hover:drop-shadow-sm">
+    <div className="group relative grid min-h-[150px] grid-cols-1 gap-4 rounded-sm p-8 text-slate-500 transition-all duration-300 md:grid-cols-8 md:hover:bg-neutral-200 md:hover:drop-shadow-xs">
       <Image
         src={img}
         height={120}
@@ -34,7 +34,7 @@ export default function ProjectCardComponent({
             aria-label={`${title} (opens in a new tab)`}
             target="_blank"
           >
-            <span className="absolute inset-0 hidden rounded md:block"></span>
+            <span className="absolute inset-0 hidden rounded-sm md:block"></span>
             <span className="inline-block">
               {title}
               <ArrowUpRightIcon className="ml-1 inline-block h-[1.5rem] shrink-0 translate-y-px transition-transform duration-300 group-hover/link:-translate-y-1 group-hover/link:translate-x-4" />
