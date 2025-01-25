@@ -25,11 +25,7 @@
 }
 
 @utility nav-link {
-  @apply w-fit cursor-pointer text-lg text-white after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-amber-300 after:transition after:duration-300 after:content-[''] hover:text-amber-300 hover:after:scale-x-100;
-}
-
-@utility nav-link_mobile {
-  @apply w-fit cursor-pointer text-lg text-white after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:bg-amber-300 after:transition after:duration-300 after:content-[''] hover:text-amber-300 hover:after:scale-x-100;
+  @apply cursor-pointer after:block after:h-[3px] after:w-full after:origin-center after:scale-x-0 after:transition after:duration-300 after:content-[''] hover:after:scale-x-100;
 }
 
 @utility show-cursor {
