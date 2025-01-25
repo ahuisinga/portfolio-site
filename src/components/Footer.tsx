@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-row justify-end">
           <a
             href="https://github.com/ahuisinga"
-            className="grow-110"
+            className="transition-all duration-200 ease-in-out hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -26,7 +26,7 @@ export default function Footer() {
           </a>
           <a
             href="https://www.linkedin.com/in/annahuisinga/"
-            className="grow-110"
+            className="transition-all duration-200 ease-in-out hover:scale-110"
             target="_blank"
             rel="noopener noreferrer"
           >
