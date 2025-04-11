@@ -17,7 +17,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -52,7 +51,6 @@ Welcome to my personal portfolio website! CSS and UI design are not my biggest s
 - [![React][React.js]][React-url]
 - [![TypeScript][TypeScript.com]][TypeScript-url]
 - [![TailwindCSS][TailwindCSS.com]][TailwindCSS-url]
-- [![HeadlessUI][HeadlessUI]][HeadlessUI-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,6 +109,9 @@ Anna Huisinga
 
 Project Link: [https://github.com/ahuisinga/portfolio-site](https://github.com/ahuisinga/portfolio-site)
 
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Trailblazer Profile][Trailblazer-badge]][Trailblazer-url]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
@@ -158,3 +159,5 @@ Project Link: [https://github.com/ahuisinga/portfolio-site](https://github.com/a
 [TypeScript-url]: https://www.typescriptlang.org/
 [HeadlessUI]: https://img.shields.io/badge/headless_ui-%2366E3FF?style=for-the-badge&logo=headlessui&logoColor=white
 [HeadlessUI-url]: https://headlessui.com/v1
+[Trailblazer-url]: https://www.salesforce.com/trailblazer/ahuisinga
+[Trailblazer-badge]: https://img.shields.io/badge/trailblazer-white?style=for-the-badge&logo=salesforce&logoColor=00A1E0

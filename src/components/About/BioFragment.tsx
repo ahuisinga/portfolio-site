@@ -2,48 +2,50 @@ export default function BioFragment() {
   return (
     <div className="space-y-2 text-lg">
       <p>
-        Hi! I&apos;m Anna, a software developer who thrives on turning complex
-        puzzles into elegant, user-friendly solutions. My current playground is
-        the Salesforce platform, where I design and implement everything from
-        data schemas to UI components, backend services, and app
-        security—basically, if it&apos;s part of our system, I&apos;ve probably
-        touched it. But my favorite part of the job isn&apos;t just the code;
-        it&apos;s presenting ideas to our users and sharing those
-        &quot;aha!&quot; moments with the team. There&apos;s nothing like
-        solving a tricky problem and celebrating that win together.
+        Hi! I&apos;m Anna — a software developer who thrives on turning complex
+        puzzles into elegant, user-friendly solutions. These days, my playground
+        is the Salesforce platform, where I design and implement everything from
+        data schemas and UI components to backend services and app security. If
+        it&apos;s part of our system, there&apos;s a good chance I&apos;ve
+        worked on it.
       </p>
       <p>
-        When I&apos;m not coding at work, you can find me mentoring newer team
-        members, especially recent graduates who are just stepping into the tech
-        world. Helping others grow is just as rewarding as writing the perfect
-        algorithm. I also oversee deployments and collaborate on solution
-        designs to ensure our team&apos;s work is rock-solid and future-proof.
+        But my favorite part of the job isn&apos;t just the code — it&apos;s the
+        people. I love showing off new features to stakeholders, brainstorming
+        with teammates, and celebrating those &ldquo;aha!&rdquo; moments
+        together. There&apos;s no fun in writing code if you don&apos;t get to
+        share it.
       </p>
       <p>
-        When I&apos;m not coding anywhere else, you can find me reading,
-        crafting, watching sports, or talking about all of the above. I earned
-        both my Bachelor&apos;s and Master&apos;s degrees in Computer Science
-        from the University of Alabama.{" "}
-        <span className="italic">Roll Tide!</span> So as you&apos;d guess,
-        I&apos;m a huge football fan, but my love for sports doesn&apos;t stop
-        there. I&apos;m especially passionate about advocating for women&apos;s
-        sports and leveling the playing field when it comes to media awareness.
-        If there&apos;s a game on, there&apos;s a good chance I&apos;m watching.
+        Outside of feature-building, I mentor newer team members, especially
+        recent grads just getting started in tech. I was lucky to have a great
+        mentor early in my career, and now I try to pay that forward whenever I
+        can. I also oversee deployments and collaborate on solution designs that
+        help our team stay scalable and efficient.
       </p>
       <p>
-        Books are another passion of mine - epic fantasy, rom-com, interesting
-        memoirs - I read it all. I&apos;m always on the hunt for the next great
-        read or debating theories about what&apos;s coming next in my favorite
-        fictional worlds. If there is no game on or I&apos;m between books, then
-        out come the craft supplies. Building physical projects is just as
-        satisfying coding virtual ones. (And de-tangling yarn can be just as
-        frustrating as hunting down the source of a bug.) Then it&apos;s fun to
-        swap creations with friends once finished!
+        When I&apos;m not coding at work (or tinkering on side projects),
+        I&apos;m reading, crafting, watching sports, or talking about all of the
+        above. I earned both my Bachelor&apos;s and Master&apos;s degrees in
+        Computer Science from the University of Alabama —{" "}
+        <span className="italic">Roll Tide!</span> As you&apos;d guess, I&apos;m
+        a big football fan, but my love for sports goes beyond the gridiron.
+        I&apos;m especially passionate about advocating for women&apos;s sports
+        and leveling the playing field when it comes to media attention. If
+        there&apos;s a game on, I&apos;m probably hosting a watch party.
       </p>
       <p>
-        Whether I&apos;m diving into a coding challenge, mentoring a colleague,
-        or cheering on my favorite team, I bring energy, curiosity, and a sense
-        of fun to everything I do.
+        Books are another love — epic fantasy, rom-coms, offbeat memoirs — I
+        read it all. I&apos;m always chasing the next great read or swapping
+        theories about my favorite fictional worlds. And when I need a break
+        from books and screens, I reach for my craft supplies. It&apos;s
+        satisfying to build something tangible after a day of 1s and 0s — at
+        least until the yarn ends up in knots. (Debugging, meet detangling.)
+      </p>
+      <p>
+        Whether I&apos;m diving into a coding challenge, mentoring a teammate,
+        or cheering from the couch, I bring energy, curiosity, and a
+        collaborative spirit to everything I do.
       </p>
     </div>
   );
