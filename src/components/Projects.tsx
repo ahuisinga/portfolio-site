@@ -20,12 +20,12 @@ export default function ProjectsComponent() {
       attributes: ["React", "Express", "Node"],
     },
     {
-      title: "EAT!",
+      title: "Cardio App",
       description:
-        "For when you can't decide where to eat with friends (which is a problem I have a lot). Still a work in progress.",
-      url: "https://github.com/ahuisinga/meal-vote-app",
-      img: "/images/eat_screenshot.png",
-      attributes: ["Next.js", "TypeScript", "DaisyUI", "MongoDB", "Prisma"],
+        "When I first started spinning, I didn't have a good way to follow a workout. There's timing and speed changes and difficulty increases to keep track of. I didn't want to pay for an app or classes, so I figured I could *spin* one up easily. Not currently accepting new users, but a portion of it is public. Still a work in progress for the UI.",
+      url: "https://workout-tracker-app-kappa.vercel.app",
+      img: "/images/cardio-workout-screenshot.png",
+      attributes: ["Next.js", "Tailwind", "Postgresql"],
     },
     {
       title: "This Portfolio Site",
@@ -39,12 +39,12 @@ export default function ProjectsComponent() {
   return (
     <section id="projects" className="pt-[12vh]">
       <div className="mx-16 max-w-[1200px] py-4 sm:mx-32">
-        <h3 className="text-2xl font-bold uppercase text-amber-300">
+        <h3 className="text-2xl font-bold text-amber-300 uppercase">
           Featured Projects
         </h3>
         <div className="w-full bg-amber-300 py-1 lg:w-1/2"></div>
-        <div className="grid ">
-          <ul className="mt-2 ">
+        <div className="grid">
+          <ul className="mt-2">
             {projectList.map((project, index) => (
               <li key={index}>
                 <ProjectCardComponent
