@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   title: "Anna Huisinga",
   description:
     "Software Developer with 4+ years of experience building scalable, user-focused apps. Passionate about clean code, good books, and Alabama football.",
-  openGraph: {
+  metadataBase: new URL("https://annahuisinga.com"),
+    openGraph: {
     url: "https://annahuisinga.com",
     siteName: "Anna Huisinga",
     type: "website",
